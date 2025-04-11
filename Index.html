@@ -4,74 +4,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BenjaAcu</title>
+    <title>TodoLibros</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz@1,7..72&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="literata-custom">
+    <div class="navbar">
+        <div class="logo">
+            <h3>TodoLibros</h3>
+            <img src="logo.webp" alt="logo">
+        </div>
+        <nav class="menu">
+            <a href="#" class="menu1">Servicios</a>
+            <a href="#" class="menu2">Contacto</a>
+        </nav>
+    </div>
     <div class="container">
-        <header>
-            <div class="navbar">
-                <div class="logo">BenjaAcu</div>
-                <nav class="menu">
-                    <a class="menu1" href="#">Servicios</a>
-                    <a class="menu2" href="#">Contacto</a>
-                </nav>
-            </div>
-        </header>
+        <div class="Titulo">
 
-        <section class="Tittle">
-            <h1>Benjamin Acuña</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit est vero reiciendis consectetur! Ut repellendus quod error eligendi delectus laudantium a porro, cupiditate in aut autem! Voluptatum illum ad autem.</p>
-            <a class="menu" href="#">Contacto</a>
-        </section>
+            <div class="titulo_titulo">
+                <img src="logo.webp" alt="logo">
+                <h2>¡Bienvenido a TodoLibros!</h2>
+            </div>
+
+            <p>Explora nuestra vasta colección de libros, desde los clásicos hasta los más recientes éxitos de ventas.
+                Encuentra lo que más te gusta: novelas, ciencia ficción, historia, arte, y mucho más. <br> ¡Tu próxima
+                gran lectura te está esperando!
+                ¡Compra fácil, entrega rápida!
+                ¿No encuentras lo que buscas? ¡Contáctanos! Estamos aquí para ayudarte.</p>
+            <a href="#" class="menu">Contacto</a>
+        </div>
 
         <div class="imagen">
-            <img src="Imagen_1.png" alt="Escalada de noche">
+            <img src="imgane 1.jpg" alt="libreria">
         </div>
 
-        <section class="texto3">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus voluptatem molestias deserunt laudantium ipsam voluptates asperiores, libero veritatis quis minima doloremque eaque quo, atque ipsa accusantium natus cum, nam voluptatibus.</p>
-        </section>
+        <div class="texto3">
+            <h2>¡La lectura transforma tu mundo!</h2>
+            <p>En TodoLibros tenemos todo lo que necesitas para sumergirte en nuevas historias y conocimientos. Descubre
+                títulos que te inspirarán y acompañarán en cada página. ¡El placer de leer comienza aquí! <br>
+                ¡Miles de opciones a tu alcance! Desde libros para niños hasta grandes obras literarias.
+            </p>
+        </div>
 
         <div class="parte3">
-            <img src="Imagen_1.png" alt="Escalada de noche">
+            <div class="slider-container">
+                <img id="img1" class="slider-item" src="imagen 2.webp" />
+                <img id="img2" class="slider-item" src="imagen 3.avif" />
+                <img id="img3" class="slider-item" src="imagen 5.jpg" />
+            </div>
+            <a href="#img1" class="botonpequeno">1</a>
+            <a href="#img2" class="botonpequeno">2</a>
+            <a href="#img3" class="botonpequeno">3</a>
         </div>
-
     </div>
 
     <div class="tarjetas">
+
         <div class="card1">
-            <h2>Juan Pérez</h2>
-            <p class="title">Desarrollador Web</p>
-            <p class="info">juanperez@email.com</p>
-            <p class="info">Telefono: 123-456-789</p>
+            <img src="Captura de pantalla 2025-04-10 185910.png" alt="persona">
+            <h2>Carlos Mendoza</h2>
+            <p class="info">CarlosMendoza@email.com</p>
+            <p class="title">⭐⭐⭐⭐⭐</p>
+            <p class="info">"La mejor selección de libros técnicos. Encontré todo lo que necesitaba para aprender CSS
+                avanzado. ¡El ambiente es increíble!"</p>
         </div>
+
         <div class="card2">
-            <h2>Juan Pérez</h2>
-            <p class="title">Desarrollador Web</p>
-            <p class="info">juanperez@email.com</p>
-            <p class="info">Telefono: 123-456-789</p>
+            <img src="Captura de pantalla 2025-04-10 185932.png" alt="persona">
+            <h2>Ana Torres</h2>
+            <p class="info">AnaTorres@email.com</p>
+            <p class="title">⭐⭐⭐⭐</p>
+            <p class="info">"Buena organización, pero faltan más ejemplares de novedades. Aun así, el personal siempre
+                es muy amable."</p>
         </div>
+
         <div class="card3">
-            <h2>Juan Pérez</h2>
-            <p class="title">Desarrollador Web</p>
-            <p class="info">juanperez@email.com</p>
-            <p class="info">Telefono: 123-456-789</p>
+
+            <img src="Captura de pantalla 2025-04-10 185949.png" alt="persona">
+            <h2>Luis Rivera</h2>
+            <p class="info">LuisRivera@email.com</p>
+            <p class="title">⭐⭐⭐⭐⭐</p>
+            <p class="info">"Está bien para estudiar, aunque a veces hay ruido en las áreas comunes. Recomiendo ir en
+                horarios menos concurridos."</p>
         </div>
+
     </div>
 
-    <footer class="footer">
+    <section id="catalogo">
+        <h2>Catálogo de Libros</h2>
+        <table class="tabla-libros">
+            <thead>
+                <tr>
+                    <th>Portada</th>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año</th>
+                    <th>Género</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="La sombra del viento.jpg" alt="La sombra del viento" width="100"></td>
+                    <td>La sombra del viento</td>
+                    <td>Carlos Ruiz Zafón</td>
+                    <td>2001</td>
+                    <td>Ficción literaria</td>
+                </tr>
+                <tr>
+                    <td><img src="Dune.webp" alt="Dune" width="100"></td>
+                    <td>Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1965</td>
+                    <td>Ciencia ficción</td>
+                </tr>
+                <tr>
+                    <td><img src="Los 7 hábitos de la gente altamente efectiva.webp" alt="Los 7 hábitos de la gente altamente efectiva" width="100"></td>
+                    <td>Los 7 hábitos de la gente altamente efectiva</td>
+                    <td>Stephen R. Covey</td>
+                    <td>1989</td>
+                    <td>Desarrollo personal</td>
+                </tr>
+                <tr>
+                    <td><img src="La chica del tren.jpg" alt="La chica del tren" width="100"></td>
+                    <td>La chica del tren</td>
+                    <td>Paula Hawkins</td>
+                    <td>2015</td>
+                    <td>Misterio</td>
+                </tr>
+                <tr>
+                    <td><img src="El nombre del viento.webp" alt="El nombre del viento" width="100"></td>
+                    <td>El nombre del viento</td>
+                    <td>Patrick Rothfuss</td>
+                    <td>2007</td>
+                    <td>Fantasía</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <div class="footer">
         <div class="iconos">
-            <a href="https://www.facebook.com" target="b">Facebook</a>
-            <a href="https://www.instagram.com" target="b">Instagram</a>
-            <a href="https://www.youtube.com" target="b">Youtube</a>
+            <a href="https://www.facebook.com" target="link"><img src="face2.webp" alt=""></a>
+            <a href="https://www.whatsApp.com" target="link"><img src="wsp3.png" alt=""></a>
+            <a href="https://www.youtube.com" target="link"><img src="youtube.png" alt=""></a>
         </div>
         <div class="desarrollador">
-            <a href="https://www.facebook.com" target="b">Desarrollador</a>
+            <a href="desarrollador.html" target="link">Desarrollador</a>
         </div>
-    </footer>
+    </div>
 
     <footer>
         <h5>Talca, 2024</h5>
