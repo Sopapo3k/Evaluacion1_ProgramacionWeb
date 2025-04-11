@@ -32,12 +32,6 @@
 
 ---
 
-## 📸 Capturas (recomendación)
-
-> Puedes incluir capturas de pantalla del sitio en uso aquí para mejor visualización del proyecto.
-
----
-
 ## 🚀 Cómo Usar
 
 1. Clona o descarga este repositorio.
